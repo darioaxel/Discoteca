@@ -2,17 +2,17 @@ package DI2021.Discoteca.dao;
 
 import java.util.List;
 
-public interface DAO <T> {	
+public interface DAO <Usuario> {	
 		
-		T get(long id);
+	Usuario get(long id);
 	    
-	    List<T> getAll();
+	    List<Usuario> getAll();
 	    
-	    void save(T t);
+	    void save(Usuario t);
 	    
-	    void update(T t, String[] params);
+	    void update(Usuario t);
 	    
-	    void delete(T t);
+	    void delete(Usuario t);
 }
 
 

@@ -1,6 +1,7 @@
 package DI2021.Discoteca.models;
 
 public class Album {
+	
 	private String artista;
 	private String nombre;
 	private Formato formato;
@@ -8,6 +9,7 @@ public class Album {
 	private String metaInfo;
 	
 	public Album(String artista, String nombre, String anno, Formato formato) {
+		
 		this.artista = artista;
 		this.nombre = nombre;
 		this.formato = formato;
