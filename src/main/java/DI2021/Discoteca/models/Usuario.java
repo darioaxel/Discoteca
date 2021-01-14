@@ -1,12 +1,13 @@
 package DI2021.Discoteca.models;
 
 public class Usuario {
-	
+	private long id;
 	private String name;
 	private String email;
 	private String password;
 
 	public Usuario(String name, String email, String password) {
+		this.id = 654;
 		this.setPassword(password);
 		this.email = email;
 		this.name = name;
